@@ -42,7 +42,7 @@ body {
   }
   
   .ig-africa {
-    height: 395px;
+    height: 350px;
     display: flex;
     align-items: center;
     position: relative;
@@ -61,6 +61,7 @@ body {
   }
   
   .ig-africa > h1 {
+    height: fit-content;
     font-family: "Instrument Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
@@ -258,6 +259,82 @@ body {
  }
 
  .gallery-item > h5 {
+  font-size: 18px;
+  font-family: "Instrument Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  margin: 0;
+ }
+
+ .newsletter {
+  height: 123vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .newsletter-items {
+  width: 70vw;
+  margin: auto;
+ }
+
+ .newsletter-items > h1 {
+  font-size: 90px;
+  font-family: "Instrument Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: italic;
+  font-variation-settings:
+    "wdth" 100;
+  width: inherit;
+  margin: 0;
+  text-align: center;
+ }
+
+ form {
+  width: inherit;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 80px;
+ }
+
+ input {
+  width: 650px;
+  height: 70px;
+  border: 2px solid #000;
+  margin: 0;
+ }
+
+ ::-ms-input-placeholder {
+  padding-left: 20px;
+  font-family: "Satoshi-Variable";
+  font-weight: 400;
+  font-size: 20px;
+ }
+
+ ::placeholder {
+  padding-left: 20px;
+  font-family: "Satoshi-Variable";
+  font-weight: 400;
+  font-size: 20px;
+ }
+
+ .sub-btn {
+  margin: 0;
+  width: 200px;
+  height: 75px;
+  border: 2px solid #000;
+  background-color: #000;
+  border-radius: 0;
+ }
+
+ .sub-btn > p {
+  color: #9dff50;
   font-size: 18px;
   font-family: "Instrument Sans", sans-serif;
   font-optical-sizing: auto;
