@@ -210,3 +210,56 @@ body {
   .EDpicks {
     border-bottom: 3px solid #000;
   }
+
+  .gallery-container {
+    width: auto;
+    display: flex;
+    margin: auto;
+    padding: 80px;
+    justify-content: space-between;
+    border-bottom: 3px solid #000;
+  }
+
+ .gallery-item {
+  width: 26vw;
+  padding-bottom: 80px;
+ }
+
+ .bottom {
+  padding-bottom: 0 !important;
+ }
+
+ .gallery-item > img {
+  width: inherit;
+  padding-bottom: 80px;
+ }
+
+ .gallery-item > h3 {
+  font-size: 27px;
+  font-family: "Instrument Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  margin: 0;
+  text-transform: uppercase;
+ }
+
+ .gallery-item > p {
+  font-family: "Satoshi-Variable";
+  font-weight: 400;
+  font-size: 16px;
+  margin: 32px 0;
+ }
+
+ .gallery-item > h5 {
+  font-size: 18px;
+  font-family: "Instrument Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  margin: 0;
+ }
