@@ -2,6 +2,7 @@ const woven = document.querySelector('.woven');
 
 woven.addEventListener('mouseover', () => {
     woven.setAttribute('src', './images/scary.png');
+    document.querySelector('.hover-btn').style.display = "block";
 });
 
 woven.addEventListener('mouseleave', () => {

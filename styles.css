@@ -8,6 +8,40 @@ body {
     color: #9dff50;
   }
 
+  .hover-btn {
+    width: 220px;
+    height: 60px;
+    background-color: #9dff50;
+    border: 2px solid #000;
+    border-radius: 8px;
+    position: absolute;
+    left: 160px;
+    top: 160px;
+    display: none;
+  }
+
+  .tiny {
+    width: 160px;
+    height: 40px;
+    left: 20px;
+    top: 20px;
+  }
+
+  .tiny > a {
+    font-size: 18px !important;
+  }
+
+  .hover-btn > a {
+    font-family: "Instrument Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    background-color: #9dff50;
+    text-decoration: none;
+    color: #000;
+  }
+
   .main {
     margin: 0;
     padding: 0;
@@ -160,6 +194,7 @@ body {
   .FTcontainer {
     padding: 80px;
     width: 80vw;
+    position: relative;
   }
 
   .FTcontainer > img {
@@ -228,6 +263,7 @@ body {
  .gallery-item {
   width: 26vw;
   padding-bottom: 80px;
+  position: relative;
  }
 
  .bottom {
