@@ -4,6 +4,10 @@ body {
     box-sizing: border-box;
   }
 
+  .green {
+    color: #9dff50;
+  }
+
   .main {
     margin: 0;
     padding: 0;
@@ -262,4 +266,43 @@ body {
   font-variation-settings:
     "wdth" 100;
   margin: 0;
+ }
+
+ .footer {
+  height: 320px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #9dff50;
+  padding: 0 80px;
+ }
+
+ .footer > p {
+    font-family: "Satoshi-Variable";
+    font-weight: 800;
+    font-size: 24px;
+    margin: 0;
+ }
+
+ .footer > h1 {
+  font-size: 58px;
+  font-family: "Instrument Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  margin: 0;
+  background-color: #f5f5f5;
+  padding: 32px 38px;
+  border-radius: 12px;
+ }
+
+ i { 
+  font-size: 36px;
+  margin-right: 24px;
+ }
+
+ .end {
+  margin-right: 0 !important;
  }
