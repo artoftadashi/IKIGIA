@@ -33,3 +33,15 @@ bade.addEventListener('mouseleave', () => {
     bade.setAttribute('src', './images/featured.png');
     $('.btn1').removeClass('active');
 });
+
+const newsletter = document.querySelector('.newsletter');
+
+newsletter.addEventListener('mouseover', () => {
+    $('.img1').addClass('news-img1');
+    $('.img2').addClass('news-img2');
+});
+
+newsletter.addEventListener('mouseleave', () => {
+    $('.img1').removeClass('news-img1');
+    $('.img2').removeClass('news-img2');
+});
