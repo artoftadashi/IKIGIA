@@ -2,11 +2,16 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
   }
 
   .green {
     color: #9dff50;
   }
+
+.active {
+  display: block !important;
+}
 
   .hover-btn {
     width: 220px;
