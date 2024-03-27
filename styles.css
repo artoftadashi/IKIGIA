@@ -129,7 +129,7 @@ body {
     animation-name: highlights;
     animation-duration: 7s;
     animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: cubic-bezier(0,1.01,.52,1.18);
     animation-direction: alternate;
   }
 
@@ -139,10 +139,10 @@ body {
   }
 
   @keyframes highlights {
-    0%, 47% {
+    0%, 45% {
         left: 0px;
     }
-    53%, 100% {
+    55%, 100% {
         left: -1200px;
     }
   }
